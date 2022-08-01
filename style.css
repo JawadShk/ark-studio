@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+#nav-container{
+    background-image: url(images/billboard.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.nav-data{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 80px;
+}
+.nav-list ul{
+    display: flex;
+}
+.nav-list li,a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin: 15px 15px;
+}
+      
+#bottom-container{
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+.bottom-text{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+.bottom-btn input{
+    margin: 18px 40px;
+    padding: 12px;
+    width: 250px;
+    color: #fff;
+    background-color: #25c4ec;
+    border: 0;
+    font-size: 16px;
+}
+
+.bottom-btn input:hover{
+    background-color: red;
+}
+.nav-list ul li a:hover{
+    color:red;
+    transition: 1s all;
+}
+    
+.heading{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+#services-data, #testimonials-data{
+    width: 70%;
+    margin: 0px 250px;
+    background-color: #fbfbfb;
+}
+#services-container, #testimonials-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.testimonials-list img{
+    border-radius: 50%;
+}
+.test-img:hover{
+    transform: scale(1.3);
+}
+
+#projects{
+    display: flex;
+    margin: 0 10px;
+}
+.project-img{
+    width: 20%;
+}
+.project-img:hover{
+    transform: scale(1.3);
+}
+
+#brand-logo{
+    width: 100%;
+    background-color: #F0F0F0;
+}
+#client-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 15px;
+}
+#footer-container{
+    background-color: #353535;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+#footer-git{
+    width: 70%;
+    height: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #434343;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.txt-git{
+    font-size: 18px;
+    margin: 25px 20px;
+}
+.git-btn input{
+    margin: 18px 40px;
+    padding: 12px;
+    width: 250px;
+    color: #fff;
+    background-color: #25c4ec;
+    border: 0;
+    font-size: 16px;
+}
+.git-btn input:hover{
+    background-color: red;
+}
+#footer-items-container{
+    width: 70%;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+#location,#company,#support,#ark-studio{
+    text-align: justify;
+    padding: 30px 0px;
+    line-height:1.5; 
+}
+.fa-brands{
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+}
+.fa-brands:hover{
+    background-color: red;
+    color: #fff;
+}
+#company ul,#support ul{
+    list-style-type: none;
+    padding-left: 0px;
+    line-height:1.5;
+    cursor:pointer;
+    text-transform: capitalize;
+}
+#copy-rights{
+    text-align: center;
+    color: #fff;
+}
+
